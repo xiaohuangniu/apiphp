@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>中国农业搜索引擎 - 农科网</title>
+	 <meta http-equiv="content-Type" content="text/html" charset="utf-8">
+    <script type="text/javascript" src="http://www.zgnyw.xin/public/sou/js/jquery-1.9.1.min.js"></script>
+
+</head>
+<body>
+
+<script>
+$(function() {
+   
+		$.ajax({
+			type: 'post',
+			data:'ed5bjS8V8GfohNeSAoMBPhpBMte6SJ8fQZTysLjBj35nXh7jfthDIYTSRfSTN+PwQ/jmqWYTQ3DclrRDPRunmNSsm2lw1lVHrEjE09k7EsVhfclLu2mdFsk8JhivU1xTQw/aqrjNxltrTc87raJvNcg1ILGZ+WM9KnuMY+MpmD3wHuohGJNkT61rL+g06ZPm2MdKvD41s/kGxn5U80AhILYPOnwje4j1sa17na031f2t5fsF9AAzzsYPf4fOEKDjE3YH0QxEEt+WGy/Dw/+D9RddwsoH08SDwJ7lnGMHRMo0SO81JfuwgAri0pBx2OL3qg2PWQHCEGVEtHXWBMVssGyia/ycayJA1S/yZ6xg9QASK/xHVWNwFmg8D1o5WcawnKf5mFQkTMU3GxkSJBPyWWFulmY27NDm4LrPbeLicp27II8IvZNN7hNJr/RUmcsCJIuuBatofnyoqyN5pbGUlW/N3uXYXbc5hLuVMhntpV+CorBNCeuueGIpAeMgPyhyq5sqtgxYt8jmDcTd6oyYr3SmaGn4',
+			url: "index.php/v1/test/shop/select",
+			success: function(data) {
+				alert(data);
+			}
+		});
+
+});
+
+</script>
+
+
+</body>
+</html>
